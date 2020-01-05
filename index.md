@@ -1,4 +1,4 @@
-TODO : Make some graphic improvements x)
+TODO : Make some graphical improvements x)
 
 # Hello World!
 A venir : 
