@@ -1,5 +1,5 @@
 # Misc - Discord 2
-![énoncé](images/discord2.jpg)  
+![énoncé](images/discord2.png)  
 L'énoncé nous dit que le flag se trouve dans un channel caché, nous ne pouvons donc pas le voir depuis l'appli discord.  
 On recherche "show hidden channels discord" et on tombe sur [ce post Reddit](https://www.reddit.com/r/discordapp/comments/7nuqzk/user_can_see_all_hidden_channels_not_access_them/).  
 On lit le tout et on remarque un commentaire intéressant :  
