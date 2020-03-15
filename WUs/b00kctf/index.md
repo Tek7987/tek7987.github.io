@@ -1,6 +1,6 @@
 # Writeups - B00k CTF
 * [Crypto - Bill's](bills.md)
-* [OSINT - Democraty](democraty.md
+* [OSINT - Democraty](democraty.md)
 * [Misc - Discord](discord.md)
 * [Misc - Discord 2](discord2.md)
 * [Forensic - Intercept](intercept.md)
