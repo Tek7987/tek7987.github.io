@@ -26,7 +26,19 @@ On ne va pas s'embêter, on ouvre discord dans notre navigateur et BurpSuite en 
 On voit un `GET /api/v6/users/@me/library HTTP/1.1`.  
 On l'envoie dans le Repeater : `CTRL + R`  
 Et on la modifie par `GET /api/v6/guilds/687358470361710668/channels` puis on lance.  
-![requête](images/discord2_requete.png)  
+```
+GET /api/v6/guilds/687358470361710668/channels HTTP/1.1
+Host: discordapp.com
+User-Agent: xxx
+Accept: */*
+Accept-Language: fr
+Accept-Encoding: gzip, deflate
+Referer: https://discordapp.com/app
+Authorization: xxx
+DNT: 1
+Connection: close
+Cookie: __cfduid=xxx; locale=fr; __cfruid=xxx
+```
 On regarde la réponse du serveur, une petite recherche avec "BC{" suffit pour trouver le flag.  
   
 **FLAG : BC{Put41n_n4sm}**

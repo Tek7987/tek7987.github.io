@@ -48,7 +48,7 @@ On enlève les retours à la ligne avec un éditeur de texte ainsi que les "=" a
 On a donc : `eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0K.eyJ1c2VybmFtZSI6Imd1ZXN0IiwiaXNfYWRtaW4iOiJmYWxzZSJ9Cg.`  
 On retourne sur notre navigateur. On change la valeur de "custom" par le token que l'on vient de créer.  
 On recharge la page... et on se prend un "500 Internal Server Error". L'attaque n'a pas marchée.
-## Cracker la clé utilisée pour générer la signature
+## Cracker la clé utilisée pour générer la signature
 On a vu tout à l'heure que l'on pouvait également cracker la clé utilisée pour générer la signature afin de pouvoir signer nos tokens de la même manière que le serveur le fait !  
 On utilise alors hashcat :
 ```

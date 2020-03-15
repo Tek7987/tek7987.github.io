@@ -2,7 +2,8 @@
 ![énoncé](images/secret-file.png)  
 Comme je suis resté bloqué pendant le challenge, j'ai acheté les 2 indices :  
 1. aes-256-cbc
-2. openssl peut devenir ton ami :)
+2. openssl peut devenir ton ami :)  
+
 On télécharge le fichier puis on le dézippe.  
 Un petit `file *` :
 ```
@@ -47,7 +48,8 @@ s
 On obtient "K0r0navirus". On a donc maintenant un fichier chiffré et ce qui semble être un mot de passe.  
 On regarde les hints : 
 1. aes-256-cbc
-2. openssl peut devenir ton ami :)
+2. openssl peut devenir ton ami :)  
+
 On sait alors que le flag est chiffré avec AES 256 bits en mode CBC.  
 On teste avec openssl :  
 ```
@@ -68,6 +70,6 @@ $ # c'est donc une image, on l'affiche
 $ display flag.txt
 ```
 ![image flag.txt](images/secret-file_flag_txt.png)  
-C'est un QR code, on le scan : [](https://webqr.com/)  
+C'est un QR code, on le scanne : [https://webqr.com/](https://webqr.com/)  
   
 **FLAG : BC{_G00DJ0B_}**
