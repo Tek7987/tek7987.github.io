@@ -1,0 +1,12 @@
+# Writeups - B00k CTF
+* [Crypto - Bill's](bills.md)
+* [OSINT - Democraty](democraty.md
+* [Misc - Discord](discord.md)
+* [Misc - Discord 2](discord2.md)
+* [Forensic - Intercept](intercept.md)
+* [Web - KoroDesign](korodesign.md)
+* [Stéganographie - LSB](lsb.md)
+* [Network - Mistake](mistake.md)
+* [Misc - Secret_file](secret-file.md)
+* [Crypto - SHA1](sha1.md)
+* [Web - "J'sais pas ... trouve un nom marrant !"](web-gelu.md)
