@@ -26,7 +26,7 @@ $ echo "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9" | base64 -d
 {"typ":"JWT","alg":"HS256"}
 $ echo "eyJ1c2VybmFtZSI6Imd1ZXN0IiwiaXNfYWRtaW4iOiJmYWxzZSJ9" | base64 -d
 {"username":"guest","is_admin":"false"}
-$ $ echo "th6ARHDhsvWtOqW38esNe269u2NJlm_CE3t9nXZLHrY" | base64 -d
+$ echo "th6ARHDhsvWtOqW38esNe269u2NJlm_CE3t9nXZLHrY" | base64 -d
 {n��cI�base64: entrée incorrecte
 ```
 La dernière partie, illisible, s'agit de la signature.  
