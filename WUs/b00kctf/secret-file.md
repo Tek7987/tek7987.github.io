@@ -72,4 +72,4 @@ $ display flag.txt
 ![image flag.txt](images/secret-file_flag_txt.png)  
 C'est un QR code, on le scanne : [https://webqr.com/](https://webqr.com/)  
   
-**FLAG : BC{_G00DJ0B_}**
+**FLAG : BC{\_G00DJ0B\_}**
