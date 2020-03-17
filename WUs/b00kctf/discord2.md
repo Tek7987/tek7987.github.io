@@ -13,7 +13,7 @@ On regarde la doc puis on va à l'onglet "Reference".
 L'URL de base pour accéder à l'api est : https://discordapp.com/api/v6  
 On se rend maintenant dans l'onglet "Guild", car c'est comme cela que les serveurs sont appelés.  
 ![get guild](images/discord2_guild.png)  
-On ouvre discord pour récupérer l'id du serveur.  
+On ouvre discord pour récupérer l'id du serveur : Paramètres de l'app discord, puis Apparence et on coche Mode développeur tout en bas. Ensuite on quitte les paramètres et on fait clique droit du l'icone du serveur et tout en bas on a "Copier l'identifiant".  
 Une fois fait, on fait notre requête : https://discordapp.com/api/v6/guilds/687358470361710668/channels  
 ```
 {"message": "401: Unauthorized", "code": 0}
